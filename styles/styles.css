@@ -1,0 +1,13 @@
+body {
+    color: aqua;
+    background-color: gray;
+}
+
+.results {
+    padding-top: 10px;
+    padding-right: 10px;
+    
+}
+.container h1 {
+    color: white;
+}
