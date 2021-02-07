@@ -15,7 +15,7 @@ async function getGame() {
     for (let i = 0; i < 8; i++) {
         console.log("Name: ", games.results[i].name, " -Rating: ", games.results[i].rating);
         let noTags = Object.keys(games.results[i]).length;
-        let myString = "Name: " + games.results[i].name + "Rating: " + games.results[i].rating + " Number of tags: " + noTags;
+        let myString = "Name: " + games.results[i].name + " Rating: " + games.results[i].rating + " Number of tags: " + noTags;
 
         //resultsContainer.innerHTML += `<div class="results">${"Name: ", games.results[i].name " -Rating: ", games.results[i].rating}</div > `;
         resultsContainer.innerHTML += `<div class="results">${myString}</div > `;
